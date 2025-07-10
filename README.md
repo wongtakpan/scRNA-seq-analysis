@@ -17,11 +17,9 @@ scRNA-seq-analysis/
 ├── plots.py                          # Plots polar plots based on analysis output
 ├── polarplots_region_names.xlsx      # Acronyms and full names for region used for plotting.
 │  
-├── data/                             # Folder containing all anndata files  
-│ └── [downloaded data files]  
+├── data/                             # Folder containing downloaded anndata files   
 │
-├── metadata/                         # Folder containing metadata file  
-│ └── [downloaded metadata files]
+├── metadata/                         # Folder containing downloaded metadata file  
 │
 
 ```
