@@ -30,8 +30,8 @@ scRNA-seq-analysis/
   - `matplotlib` / `seaborn` (for plotting)
 
 ## Setup Instructions
-- Create a new project folder and place both Python scripts (analysis.py, plots.py) inside it.
--  Download the data:
+1. Create a new project folder and place both Python scripts (analysis.py, plots.py) inside it.
+2.  Download the data:
   
     - Data files: This project uses the log normalized version of the expression matrices. The log2 anndata files of WMB-10Xv3, WMB-  10Xv2 and WMB-10XMulti which were used for the analysis can be downloaded from the `expression_matrices` folder in the given database: https://allen-brain-cell-atlas.s3.us-west-2.amazonaws.com/index.html
 
