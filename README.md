@@ -47,10 +47,11 @@ scRNA-seq-analysis/
 6. Run `plots.py`: Generates polar plots in `.svg` format and saves them in the `svg/` folder.
 
 ## Region Filtering Note
-This repository includes a file named regions_to_plot.xlsx, which specifies the brain regions used for generating plots. When running the plotting script:
-
 **Note:** Some similar brain regions were combined due to similarity and their coexpression values were averaged. These include:
 
 - Anterior cingulate area and Prelimbic/infralimbic/orbital areas
 - Somatomotor - Frontal pole and Primary motor area
 - Striatum-like amygdalar nuclei and Cortical subplate
+
+This repository includes a file named `regions_to_plot.xlsx`, which specifies the brain regions used for generating plots. This file includes the combined region names.
+
