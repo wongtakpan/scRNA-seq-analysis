@@ -32,7 +32,6 @@ scRNA-seq-analysis/
 ## Setup Instructions
 1. Create a new project folder and place both Python scripts (analysis.py, plots.py) inside it.  
 2. Download the data:  
-
   Data files: This project uses the log normalized version of the expression matrices. The log2 anndata files of WMB-10Xv3, WMB-  10Xv2 and WMB-10XMulti which were used for the analysis can be downloaded from the `expression_matrices` folder in the given database: https://allen-brain-cell-atlas.s3.us-west-2.amazonaws.com/index.html
 
 Metadata files: `cell_metadata.csv` can be found in `metadata/WMB-10X/`. For the analysis the version dated `20241115` was used. 
