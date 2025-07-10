@@ -50,6 +50,7 @@ scRNA-seq-analysis/
 This repository includes a file named regions_to_plot.xlsx, which specifies the brain regions used for generating plots. When running the plotting script:
 
 **Note:** Some similar brain regions were combined due to similarity and their coexpression values were averaged. These include:
-    * Anterior cingulate area and Prelimbic/infralimbic/orbital areas
-    * Somatomotor - Frontal pole and Primary motor area
-    * Striatum-like amygdalar nuclei and Cortical subplate
+
+    - Anterior cingulate area and Prelimbic/infralimbic/orbital areas
+    - Somatomotor - Frontal pole and Primary motor area
+    - Striatum-like amygdalar nuclei and Cortical subplate
