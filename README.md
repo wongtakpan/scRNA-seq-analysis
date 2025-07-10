@@ -55,4 +55,4 @@ scRNA-seq-analysis/
 This repository includes a file named `regions_to_plot.xlsx`, which specifies the brain regions used for generating plots. This file includes the combined region names. The original file containing all the region acronyms and full names can be found in the online database as `metadata/WMB-10X/20241115/region_of_interest_metadata.csv` 
 
 ##  Output
-`plots.py` stores polar plots in `.svg` vector graphics format. These files were then edited and finalized in ***CorelDRAW** for the figures used in the paper.
+`plots.py` stores polar plots in `.svg` vector graphics format. These files were then edited and finalized in ***CorelDRAW*** for the figures used in the paper.
