@@ -33,7 +33,7 @@ scRNA-seq-analysis/
   - `os`
   - `matplotlib`
 
-## Setup Instructions
+## How to Run
 1. Create a new project folder and place both Python scripts (`analysis.py`, `plots.py`) and `polarplots_region_names.xlsx` file inside it.
 2.  Download the data:
     - Latest files can be downloaded from: https://allen-brain-cell-atlas.s3.us-west-2.amazonaws.com/index.html
@@ -47,11 +47,12 @@ scRNA-seq-analysis/
 6. Run `plots.py`: Generates polar plots in `.svg` format and saves them in the `svg/` folder.
 
 ## Region Filtering Note
-**Note:** Some similar brain regions were combined due to similarity and their coexpression values were averaged. These include:
+**Note:** Some similar brain regions were combined due to anatomical similarity and their coexpression values were averaged. They were then renamed in the final figure. These include:
 
-- Anterior cingulate area and Prelimbic/infralimbic/orbital areas
-- Somatomotor - Frontal pole and Primary motor area
-- Striatum-like amygdalar nuclei and Cortical subplate
+- *Anterior cingulate area* and *Prelimbic/infralimbic/orbital areas* used as *Prefrontal Cortex*
+- *Striatum-like amygdalar nuclei* and *Cortical subplate* used as *Amygdala*
 
-This repository includes a file named `regions_to_plot.xlsx`, which specifies the brain regions used for generating plots. This file includes the combined region names.
+This repository includes a file named `regions_to_plot.xlsx`, which specifies the brain regions used for generating plots. This file includes the combined region names. The original file containing all the region acronyms and full names can be found in the online database as `metadata/WMB-10X/20241115/region_of_interest_metadata.csv` 
 
+##Output
+`plots.py` stores plots in `.svg` vector graphics format. These files were then edited and finalized in ***CorelDRAW** for the figures used in the paper.
