@@ -9,7 +9,8 @@ For more information: https://doi.org/10.1038/s41586-023-06812-z
 
 
 
-## Project Structure
+###  Project Structure
+```
 scRNA-seq-analysis/
 │  
 ├── analysis.py # Script 1: Generates coexpression counts and coexpression percentages  
