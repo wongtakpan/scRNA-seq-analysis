@@ -24,7 +24,7 @@ scRNA-seq-analysis/
 
 ```
 
-- Required packages:
+- Dependencies:
   - `pandas`
   - `numpy`
   - `scanpy`
@@ -41,7 +41,7 @@ scRNA-seq-analysis/
 4. Create directories: In your project folder, create two new folders: `data` and `metadata`. Place all data files inside the `data/` folder and the inside the `metadata/` folder.
 5. Run `analysis.py`. The script produces two Excel (.xlsx) files:
     - `coexpression_counts.xlsx`: Number of coexpressing cells.
-    - `coexpression.xlsx`: Percentages of coexpresstion
+    - `coexpression.xlsx`: Percentages of coexpression
 6. Run `plots.py`: Generates polar plots in `.svg` format and saves them in the `svg/` folder.
 
 ## Region Filtering Note
